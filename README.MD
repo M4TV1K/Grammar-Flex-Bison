@@ -1,4 +1,4 @@
-##Project description
+## Project Description
 
 Simple grammar written on flex and bison for pretty parsing the tag-structure (e.g. HTML, XML), 
 without additional validation
