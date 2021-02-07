@@ -1,10 +1,13 @@
 ##Project description
 
+Simple grammar written on flex and bison for pretty parsing the tag-structure (e.g. HTML, XML), 
+without additional validation
+
+## Compilation (works perfectly for Mac)
+
 There are two files in "src" folder
 "test.l" represents flex, while
 "test.y" represents bison.
-
-## Compilation (works perfectly for Mac)
 
 The "Makefile" is a special file that executes following code  
 flex -l src/test.l  
